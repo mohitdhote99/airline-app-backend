@@ -63,5 +63,7 @@ public class UserController {
 		return userService.loginUser(uobj);
 	}
 	
-	
+	public String hello_test_airlineapp(){
+		return "airline app is workinng";
+	}
 }
